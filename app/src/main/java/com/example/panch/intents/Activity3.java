@@ -24,6 +24,15 @@ public class Activity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                String surname = etSurname.getText().toString().trim();
+
+                Intent intent = new Intent();
+                intent.putExtra("surname", surname);
+
+                setResult(RESULT_OK, intent);
+
+                Activity3.this.finish();
+
 
             }
         });
