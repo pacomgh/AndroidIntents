@@ -6,7 +6,7 @@
     <string name="tvMessage">Activity 3 Data</string>
     <string name="welcome">Welcome to activity 2</string>
     <string name="surname">Enter your surname</string>
-    <string name="btnSurnme">Submit</string>
+    <string name="btnSubmit">Submit</string>
     <!-- %1$s represents a value sended/put in an activity(see activity2) -->
     <string name="welcomemsg">%1$s, welcome to activity 2</string>
 </resources>
